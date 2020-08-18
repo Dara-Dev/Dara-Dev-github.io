@@ -1,4 +1,4 @@
-var secret = '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';
+var secret = '';
 function ValidateEmail(mail) {
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if (mailformat.test(mail)) {
