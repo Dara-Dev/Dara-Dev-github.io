@@ -57,7 +57,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -4701,7 +4703,7 @@ a.close.disabled {
   z-index: 1050;
   display: none;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   outline: 0; }
 
@@ -8142,7 +8144,7 @@ body {
   body.menu-show {
     overflow: hidden;
     position: fixed;
-    height: 100%;
+    /* height: 100%; */
     width: 100%; }
 
 a {
@@ -8293,7 +8295,7 @@ h1, h2, h3, h4, h5,
       color: #ffbd39;
       outline: none !important; }
   .ftco-navbar-light.scrolled {
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     left: 0;
     top: 0;
@@ -8382,7 +8384,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   top: 0;
   left: 4em;
-  height: 100%;
+  /* height: 100%; */
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 5px;
@@ -8630,7 +8632,7 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -9041,7 +9043,8 @@ textarea.form-control {
   height: inherit !important; }
 
 .ftco-vh-100 {
-  height: 100vh; }
+  height: 100vh; 
+}
   @media (max-width: 1199.98px) {
     .ftco-vh-100 {
       height: inherit;
